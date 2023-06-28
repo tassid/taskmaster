@@ -1,0 +1,70 @@
+﻿<Properties StartupConfiguration="{9B81D99C-CB1F-4096-B09D-80034CD861B1}|ToDo">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Item.cs">
+    <Files>
+      <File FileName="Startup.cs" Line="28" Column="50" />
+      <File FileName="Models/Item.cs" Line="11" Column="6" />
+      <File FileName="Pages/Items/Edit.cshtml" Line="23" Column="24" />
+      <File FileName="Pages/Items/Index.cshtml" Line="24" Column="13" />
+      <File FileName="Pages/Items/Create.cshtml" Line="31" Column="6" />
+      <File FileName="Pages/Index.cshtml" Line="11" Column="7" />
+      <File FileName="Pages/Items/Delete.cshtml" Line="31" Column="12" />
+      <File FileName="Pages/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Pages/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Pages/Error.cshtml" Line="1" Column="1" />
+      <File FileName="Pages/Privacy.cshtml" Line="9" Column="15" />
+      <File FileName="Properties/launchSettings.json" Line="25" Column="6" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="16" Column="36" />
+      <File FileName="ToDo.db" />
+      <File FileName="Data/ItemsContext.cs" Line="3" Column="15" />
+      <File FileName="Migrations/20200513133513_InitialCreate.cs" Line="12" Column="38" />
+      <File FileName="Migrations/ItemsContextModelSnapshot.cs" Line="20" Column="42" />
+      <File FileName="wwwroot/js/site.js" Line="1" Column="1" />
+      <File FileName="wwwroot/css/site.css" Line="17" Column="15" />
+      <File FileName="wwwroot/lib/bootstrap/LICENSE" Line="1" Column="1" />
+      <File FileName="wwwroot/lib/jquery/LICENSE.txt" Line="1" Column="1" />
+      <File FileName="wwwroot/lib/jquery-validation/LICENSE.md" Line="1" Column="1" />
+      <File FileName="wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" Line="1" Column="1" />
+      <File FileName="Pages/Shared/_Layout.cshtml" Line="36" Column="22" />
+      <File FileName="Pages/Items/Detalhes.cshtml" Line="30" Column="1" />
+      <File FileName="Pages/Projeto.cshtml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TaskMaster">
+            <Node name="TaskMaster">
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Item.cs" selected="True" />
+              </Node>
+              <Node name="Pages">
+                <Node name="Shared" expanded="True" />
+                <Node name="Projeto.cshtml" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True" />
+                  <Node name="jquery" expanded="True" />
+                  <Node name="jquery-validation" expanded="True" />
+                  <Node name="jquery-validation-unobtrusive" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TaskMaster PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

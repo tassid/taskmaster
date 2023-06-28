@@ -1,0 +1,42 @@
+@page
+@model ToDo.Pages_Items.IndexModel
+
+@{
+    ViewData["Title"] = "Lista de Tarefas";
+}
+
+<h1>🗓️ Tarefas </h1>
+
+<p>
+    <a asp-page="Criar">Criar Nova</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nome
+            </th>
+            <th>
+                Data
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Item) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Due)
+            </td>
+            <td>
+                <a asp-page="./Editar" asp-route-id="@item.Id">Editar</a> |
+                <a asp-page="./Detalhes" asp-route-id="@item.Id">Detalhes</a> |
+                <a asp-page="./Apagar" asp-route-id="@item.Id">Apagar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

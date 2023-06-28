@@ -1,0 +1,29 @@
+@page
+@model ToDo.Pages_Items.DetailsModel
+
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<h1>🔎 Detalhes da Tarefa</h1>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            Nome
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Item.Name)
+        </dd>
+        <dt class="col-sm-2">
+            Data
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Item.Due)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Editar" asp-route-id="@Model.Item.Id">Editar</a> |
+    <a asp-page="./Index">Voltar para a Lista de Tarefas</a>
+</div>
